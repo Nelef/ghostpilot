@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GhostPilot — 개인정보처리방침 / Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --bg:#ffffff; --ink:#15181c; --muted:#5c636b; --line:#dfe3e8; --accent:#0f8f72; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0b0d10; --ink:#edeff2; --muted:#9aa1aa; --line:#232830; --accent:#6ee7c8; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  nav a { color: var(--accent); margin-right: 16px; }
+  h1 { font-size: 28px; line-height: 1.25; } h2 { font-size: 20px; margin-top: 32px; }
+  table { width:100%; border-collapse: collapse; font-size: 14px; display:block; overflow-x:auto; }
+  th, td { border-bottom: 1px solid var(--line); padding: 8px 6px; text-align: left; vertical-align: top; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+</style>
+</head>
+<body><main>
+<nav><a href="#ko">한국어</a><a href="#en">English</a></nav>
+<section id="ko"><h1>GhostPilot 개인정보처리방침</h1>
+<p>시행일: 2026-11-01 · 개발자: UY app(장우영) · 문의: imoneleft@naver.com</p>
+<p>GhostPilot은 휴대폰과 작은 USB 장치(GhostPilot 기기)로, 사용자가 고른 AI가 사용자의 컴퓨터 키보드와 마우스를 대신 조작하게 하는 앱입니다.
+<strong>개발자는 사용자 데이터를 수집하거나 보관하는 서버를 운영하지 않습니다.</strong></p>
+<h2>1. 앱이 다루는 정보와 가는 곳</h2>
+<table>
+<thead>
+<tr>
+<th>정보</th>
+<th>용도</th>
+<th>보내는 곳</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>대상 컴퓨터의 화면 이미지(캡처보드 또는 카메라)</td>
+<td>AI가 화면을 보고 다음 동작을 정함</td>
+<td>사용자가 고른 AI 제공자</td>
+</tr>
+<tr>
+<td>사용자가 입력한 지시문, 첨부한 파일</td>
+<td>AI에게 할 일을 알림</td>
+<td>사용자가 고른 AI 제공자</td>
+</tr>
+<tr>
+<td>AI가 정한 키보드·마우스 동작</td>
+<td>컴퓨터 조작</td>
+<td>GhostPilot 기기(블루투스, 암호화된 페어링)</td>
+</tr>
+<tr>
+<td>대화 기록, 설정</td>
+<td>앱 안에서 다시 보기</td>
+<td>휴대폰 안에만 저장</td>
+</tr>
+<tr>
+<td>API 키, 브리지 토큰</td>
+<td>AI 제공자·브리지 접속</td>
+<td>휴대폰 안에만 저장(Android Keystore로 암호화)</td>
+</tr>
+</tbody>
+</table>
+<p>AI 제공자는 사용자가 설정에서 고른 곳 하나입니다: Anthropic(Claude, Claude Code), OpenAI(ChatGPT, Codex), Google(Gemini),
+OpenRouter, 또는 사용자가 직접 운영하는 서버(로컬 모델, PC 브리지). 이 정보는 <strong>사용자 본인의 계정이나 API 키로</strong> 해당 제공자에게
+직접 전송되며, 그 처리는 각 제공자의 개인정보처리방침을 따릅니다. 개발자는 이 내용을 받거나 볼 수 없습니다.</p>
+<p>PC 브리지를 쓰면 휴대폰과 사용자의 컴퓨터 사이에 같은 네트워크(또는 사용자의 VPN) 안에서 토큰으로 보호된 연결이 열립니다.</p>
+<h2>2. 권한</h2>
+<ul>
+<li>블루투스(근처 기기 검색·연결): GhostPilot 기기를 찾고 연결합니다. Android 11 이하에서는 블루투스 검색에 위치 권한이 필요하지만 위치는 쓰지 않습니다.</li>
+<li>카메라(선택): 캡처보드가 없을 때 모니터를 찍어 AI에게 보여 줍니다.</li>
+<li>알림(직접 배포판): 휴대폰 안에서 실행 중인 Claude Code를 알립니다.</li>
+</ul>
+<h2>3. 보관과 삭제</h2>
+<p>대화 기록과 설정은 휴대폰에만 있으며, 앱 안에서 대화를 지우거나 앱을 삭제하면 사라집니다. 휴대폰 백업에도 포함되지 않습니다.
+AI 제공자에게 보낸 내용의 보관·삭제는 각 제공자 계정에서 관리합니다.</p>
+<h2>4. 광고·분석·아동</h2>
+<p>광고, 분석, 오류 수집 도구를 쓰지 않습니다. 만 18세 이상을 대상으로 하며 아동에게서 정보를 수집하지 않습니다.</p>
+<h2>5. 변경</h2>
+<p>이 방침을 바꾸면 이 페이지에 시행일과 함께 알립니다.</p></section>
+<hr>
+<section id="en" lang="en"><h1>GhostPilot Privacy Policy</h1>
+<p>Effective 2026-11-01 · Developer: UY app (Uyeong Jang) · Contact: imoneleft@naver.com</p>
+<p>GhostPilot lets an AI of your choice operate your computer's keyboard and mouse through your phone and a small USB device (the GhostPilot device).
+<strong>The developer runs no server that collects or stores your data.</strong></p>
+<h2>1. What the app handles and where it goes</h2>
+<table>
+<thead>
+<tr>
+<th>Information</th>
+<th>Purpose</th>
+<th>Sent to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Images of the target computer's screen (capture card or camera)</td>
+<td>The AI looks at the screen to decide the next step</td>
+<td>The AI provider you chose</td>
+</tr>
+<tr>
+<td>Instructions you type, files you attach</td>
+<td>Tell the AI what to do</td>
+<td>The AI provider you chose</td>
+</tr>
+<tr>
+<td>Keyboard and mouse actions the AI decides</td>
+<td>Operate the computer</td>
+<td>The GhostPilot device (Bluetooth, encrypted pairing)</td>
+</tr>
+<tr>
+<td>Conversation history, settings</td>
+<td>Review inside the app</td>
+<td>Stored only on your phone</td>
+</tr>
+<tr>
+<td>API keys, bridge token</td>
+<td>Connect to the AI provider or bridge</td>
+<td>Stored only on your phone (encrypted with Android Keystore)</td>
+</tr>
+</tbody>
+</table>
+<p>The AI provider is the one you pick in Settings: Anthropic (Claude, Claude Code), OpenAI (ChatGPT, Codex), Google (Gemini), OpenRouter,
+or a server you run yourself (a local model, the PC bridge). This information goes <strong>directly to that provider with your own account or
+API key</strong>, and that provider's privacy policy applies. The developer cannot receive or see it.</p>
+<p>With the PC bridge, the phone connects to your own computer on your network (or your VPN) over a token-protected connection.</p>
+<h2>2. Permissions</h2>
+<ul>
+<li>Bluetooth (nearby devices): find and connect to the GhostPilot device. On Android 11 and older, Bluetooth scanning requires the location permission; location is not used.</li>
+<li>Camera (optional): photograph the monitor for the AI when no capture card is attached.</li>
+<li>Notifications (direct-download build): show that Claude Code is running on the phone.</li>
+</ul>
+<h2>3. Retention and deletion</h2>
+<p>History and settings stay on your phone; deleting a conversation or uninstalling the app removes them. They are excluded from device backups.
+What was sent to an AI provider is kept and deleted under your account with that provider.</p>
+<h2>4. Ads, analytics, children</h2>
+<p>No ads, analytics or crash-reporting tools. The app is for people 18 and older and does not collect information from children.</p>
+<h2>5. Changes</h2>
+<p>Changes to this policy are posted on this page with a new effective date.</p></section>
+</main></body></html>
