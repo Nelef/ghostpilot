@@ -13,4 +13,5 @@
 | `ghostpilot_bridge.py` | PC 브리지 — 내 컴퓨터의 Claude Code·Codex를 폰에 연결 (Python 3.9+) / Connects Claude Code or Codex on your computer to the phone |
 
 - 개인정보처리방침 / Privacy policy: https://nelef.github.io/ghostpilot/privacy.html
+- 오픈소스 구성 요소 소스 / Third-party source: [third_party/](third_party/)
 - 문의 / Contact: imoneleft@naver.com
